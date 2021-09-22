@@ -7,7 +7,7 @@
 }
 /* body */
 body {
-  font-family: "Raleway", "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 .link {
@@ -18,6 +18,8 @@ body {
 }
 /* header */
 .logo {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -35,11 +37,22 @@ body {
 
   color: var(--secondary-title-color);
 }
-.contact-link {
-  font-weight: 500;
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.contact-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .link:hover,
@@ -56,6 +69,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primary-title-color);
 }
 .hero-button {
@@ -74,6 +88,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--secondary-title-color);
 }
 .main-text {
@@ -128,6 +143,8 @@ body {
 }
 /* portfolio button */
 .button-prof {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;

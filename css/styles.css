@@ -10,6 +10,9 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
+.btn {
+  border: none;
+}
 .link {
   text-decoration: none;
 }
